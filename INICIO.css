@@ -1,0 +1,37 @@
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    position: relative; /* Garante que a navegação se posicione corretamente em relação ao header */
+}
+
+header h1 {
+    color: red;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+nav {
+    position: absolute; /* Posiciona a navegação de forma absoluta dentro do cabeçalho */
+    top: 20px; /* Define a distância do topo do cabeçalho */
+    right: 20px; /* Posiciona a navegação à direita */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+

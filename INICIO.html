@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedStore - Utensílios Médicos</title>
+    <link rel="stylesheet" href="PRODUTOS.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+
+        header h1 {
+            color: red;
+            font-size: 32px;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        .promo {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .product-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .product {
+            width: 30%;
+            text-align: center;
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .product button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: darkred;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-top: 2px solid #ddd;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MedStore</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="INICIO.html">Início</a></li>
+            <li><a href="PRODUTOS.html">Produtos</a></li>
+            <li><a href="SOBRENOS.html">Sobre Nós</a></li>
+            <li><a href="CONTATO.html">Contato</a></li>
+            <li><a href="CADASTRO.html">Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <div class="promo">
+        <p>Promoção Especial! 20% OFF em todos os utensílios médicos.</p>
+    </div>
+
+    <main>
+        <section class="product-gallery">
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/57/df/c8/57dfc850a78638fe6cd90392dfb205b8.jpg" alt="Termômetro">
+                <p>O termômetro médico é um dispositivo utilizado para medir a temperatura corporal de uma pessoa, ajudando no diagnóstico de febre ou outras condições de saúde.</p>
+                <p>Preço: R$29,90</p>
+                <button>Comprar produto</button>
+            </div>
+
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/e0/1b/67/e01b672ebbcceaf3b26afec564815883.jpg" alt="Estetoscópio">
+                <p>O estetoscópio é um instrumento médico usado para ouvir sons internos do corpo, como batimentos cardíacos e respiração. Ele é essencial para exames clínicos, ajudando no diagnóstico de diversas condições.</p>
+                <p>Preço: R$230,00</p>
+                <button>Comprar produto</button>
+            </div>
+
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/27/69/c7/2769c72f36ed6c766d36c817064c8350.jpg" alt="Esfigmomanômetro">
+                <p>O esfigmomanômetro é um aparelho utilizado para medir a pressão arterial. Ele consiste em um manguito inflável, um manômetro e uma válvula de controle.</p>
+                <p>Preço: R$744,00</p>
+                <button>Comprar produto</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MedStore. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
